@@ -43,7 +43,6 @@ nosetests.xml
 coverage.xml
 
 .ipynb_checkpoints
-.env
 .venv
 venv/
 ENV/
