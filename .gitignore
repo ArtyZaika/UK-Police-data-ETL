@@ -6,7 +6,6 @@ __pycache__/
 # app level
 *.log
 logs/
-postgres-db-volume/
 datasets/
 
 # C extensions
