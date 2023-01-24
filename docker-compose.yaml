@@ -235,7 +235,7 @@ services:
   spark-master:
       image: docker.io/bitnami/spark:3.3.1
       user: root # Run container as root container: https://docs.bitnami.com/tutorials/work-with-non-root-containers/
-      hostname: spark
+      hostname: spark-master
       environment:
           - SPARK_MODE=master
           - SPARK_RPC_AUTHENTICATION_ENABLED=no
