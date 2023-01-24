@@ -1,0 +1,7 @@
+# pyspark is required to spark-submit works inside airflow machine
+pyspark
+gdown==4.6.0
+pyarrow==6.0.1
+apache-airflow-providers-apache-spark==4.0.0 
+pandas
+numpy
