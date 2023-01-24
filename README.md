@@ -41,7 +41,8 @@ To use the code you have Docker and Docker Compose installed
 
  4. Login to Airflow web UI on `localhost:8080` with default creds: `airflow/airflow`
 
- 5. To be able to use Spark Operator in Airflow, you have to add Spark Hook on Admin->Connections->Add section in Airflow Admin.
+ 5. To be able to use Spark Operator in Airflow, you have to add Spark Hook on Admin->Connections->Add section in Airflow Admin. You can use params: `Connection Id: spark-default`, `Host: spark://spark-master`, `port: 7077`, `Extra: {"queue": "root:default"}`
+   
     ![](docs/airflow_spark_hook.png)
 
  6. Now manually run main DAG on the Web Console, which will prepare data and statistics. By default DAG is not running!
